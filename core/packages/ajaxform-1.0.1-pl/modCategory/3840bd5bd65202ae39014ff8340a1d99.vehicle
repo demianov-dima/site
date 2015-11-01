@@ -1,0 +1,74 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Chunks' => 
+    array (
+      '8a96a2d909adee9ea541c69421ba83c9' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => false,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":0,"source":1,"property_preprocess":0,"name":"tpl.AjaxForm.example","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<form action=\\"\\" method=\\"post\\" class=\\"ajax_form af_example form-horizontal\\">\\n\\n\\t<div class=\\"control-group\\">\\n\\t\\t<label class=\\"control-label\\" for=\\"af_name\\">[[%af_label_name]]<\\/label>\\n\\t\\t<div class=\\"controls\\">\\n\\t\\t\\t<input type=\\"text\\" id=\\"af_name\\" name=\\"name\\" value=\\"[[+fi.name]]\\" placeholder=\\"\\" class=\\"span4\\" \\/>\\n\\t\\t\\t<span class=\\"error error_name\\">[[+fi.error.name]]<\\/span>\\n\\t\\t<\\/div>\\n\\t<\\/div>\\n\\n\\t<div class=\\"control-group\\">\\n\\t\\t<label class=\\"control-label\\" for=\\"af_email\\">[[%af_label_email]]<\\/label>\\n\\t\\t<div class=\\"controls\\">\\n\\t\\t\\t<input type=\\"email\\" id=\\"af_email\\" name=\\"email\\" value=\\"[[+fi.email]]\\" placeholder=\\"\\" class=\\"span4\\" \\/>\\n\\t\\t\\t<span class=\\"error error_email\\">[[+fi.error.email]]<\\/span>\\n\\t\\t<\\/div>\\n\\t<\\/div>\\n\\n\\t<div class=\\"control-group\\">\\n\\t\\t<label class=\\"control-label\\" for=\\"af_message\\">[[%af_label_message]]<\\/label>\\n\\t\\t<div class=\\"controls\\">\\n\\t\\t\\t<textarea id=\\"af_message\\" name=\\"message\\" class=\\"span4\\" rows=\\"5\\">[[+fi.message]]<\\/textarea>\\n\\t\\t\\t<span class=\\"error error_message\\">[[+fi.error.message]]<\\/span>\\n\\t\\t<\\/div>\\n\\t<\\/div>\\n\\n\\t<div class=\\"control-group\\">\\n\\t\\t<div class=\\"controls\\">\\n\\t\\t\\t<button type=\\"reset\\" class=\\"btn\\">[[%af_reset]]<\\/button>\\n\\t\\t\\t<button type=\\"submit\\" class=\\"btn btn-primary\\">[[%af_submit]]<\\/button>\\n\\t\\t<\\/div>\\n\\t<\\/div>\\n\\t\\n\\t[[+fi.success:is=`1`:then=`\\n\\t\\t<div class=\\"alert alert-success\\">[[+fi.successMessage]]<\\/div>\\n\\t`]]\\n\\t[[+fi.validation_error:is=`1`:then=`\\n\\t\\t<div class=\\"alert alert-danger\\">[[+fi.validation_error_message]]<\\/div>\\n\\t`]]\\n<\\/form>","locked":0,"properties":null,"static":0,"static_file":"core\\/components\\/ajaxform\\/elements\\/chunks\\/chunk.example.tpl","content":"<form action=\\"\\" method=\\"post\\" class=\\"ajax_form af_example form-horizontal\\">\\n\\n\\t<div class=\\"control-group\\">\\n\\t\\t<label class=\\"control-label\\" for=\\"af_name\\">[[%af_label_name]]<\\/label>\\n\\t\\t<div class=\\"controls\\">\\n\\t\\t\\t<input type=\\"text\\" id=\\"af_name\\" name=\\"name\\" value=\\"[[+fi.name]]\\" placeholder=\\"\\" class=\\"span4\\" \\/>\\n\\t\\t\\t<span class=\\"error error_name\\">[[+fi.error.name]]<\\/span>\\n\\t\\t<\\/div>\\n\\t<\\/div>\\n\\n\\t<div class=\\"control-group\\">\\n\\t\\t<label class=\\"control-label\\" for=\\"af_email\\">[[%af_label_email]]<\\/label>\\n\\t\\t<div class=\\"controls\\">\\n\\t\\t\\t<input type=\\"email\\" id=\\"af_email\\" name=\\"email\\" value=\\"[[+fi.email]]\\" placeholder=\\"\\" class=\\"span4\\" \\/>\\n\\t\\t\\t<span class=\\"error error_email\\">[[+fi.error.email]]<\\/span>\\n\\t\\t<\\/div>\\n\\t<\\/div>\\n\\n\\t<div class=\\"control-group\\">\\n\\t\\t<label class=\\"control-label\\" for=\\"af_message\\">[[%af_label_message]]<\\/label>\\n\\t\\t<div class=\\"controls\\">\\n\\t\\t\\t<textarea id=\\"af_message\\" name=\\"message\\" class=\\"span4\\" rows=\\"5\\">[[+fi.message]]<\\/textarea>\\n\\t\\t\\t<span class=\\"error error_message\\">[[+fi.error.message]]<\\/span>\\n\\t\\t<\\/div>\\n\\t<\\/div>\\n\\n\\t<div class=\\"control-group\\">\\n\\t\\t<div class=\\"controls\\">\\n\\t\\t\\t<button type=\\"reset\\" class=\\"btn\\">[[%af_reset]]<\\/button>\\n\\t\\t\\t<button type=\\"submit\\" class=\\"btn btn-primary\\">[[%af_submit]]<\\/button>\\n\\t\\t<\\/div>\\n\\t<\\/div>\\n\\t\\n\\t[[+fi.success:is=`1`:then=`\\n\\t\\t<div class=\\"alert alert-success\\">[[+fi.successMessage]]<\\/div>\\n\\t`]]\\n\\t[[+fi.validation_error:is=`1`:then=`\\n\\t\\t<div class=\\"alert alert-danger\\">[[+fi.validation_error_message]]<\\/div>\\n\\t`]]\\n<\\/form>"}',
+        'guid' => '14b68e246127bdce51b2b510e98c8465',
+        'native_key' => 0,
+        'signature' => '52de02ffe5936cdeaed069d7b20a99e3',
+      ),
+    ),
+    'Snippets' => 
+    array (
+      '8fa9d514703396ec955af48685100924' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":0,"source":1,"property_preprocess":0,"name":"AjaxForm","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"\\/** @var array $scriptProperties *\\/\\n\\/** @var AjaxForm $AjaxForm *\\/\\n$AjaxForm = $modx->getService(\'ajaxform\',\'AjaxForm\',$modx->getOption(\'ajaxform_core_path\',null,$modx->getOption(\'core_path\').\'components\\/ajaxform\\/\').\'model\\/ajaxform\\/\',$scriptProperties);\\nif (!($AjaxForm instanceof AjaxForm)) return \'\';\\n$AjaxForm->initialize($modx->context->key);\\n\\n$snippet = $modx->getOption(\'snippet\', $scriptProperties, \'FormIt\', true);\\n$tpl = $modx->getOption(\'form\', $scriptProperties, \'tpl.AjaxForm.example\', true);\\n$formSelector = $modx->getOption(\'formSelector\', $scriptProperties, \'ajax_form\', true);\\nif (!isset($placeholderPrefix)) {$placeholderPrefix = \'fi.\';}\\n\\n\\/** @var modChunk $chunk *\\/\\nif (!$chunk = $modx->getObject(\'modChunk\', array(\'name\' => $tpl))) {\\n\\treturn $modx->lexicon(\'af_err_chunk_nf\', array(\'name\' => $tpl));\\n}\\n\\n$content = $chunk->getContent();\\n\\n\\/\\/ Add selector to tag form\\nif (preg_match(\'\\/form.*?class=\\"(.*?)\\"\\/\', $content, $matches)) {\\n\\t$classes = explode(\' \', $matches[1]);\\n\\tif (!in_array($formSelector, $classes)) {\\n\\t\\t$classes[] = $formSelector;\\n\\t\\t$classes = str_replace(\'class=\\"\'.$matches[1].\'\\"\', \'class=\\"\'.implode(\' \', $classes).\'\\"\', $matches[0]);\\n\\t\\t$content = str_replace($matches[0], $classes, $content);\\n\\t}\\n}\\nelse {\\n\\t$content = str_replace(\'<form\', \'<form class=\\"\'.$formSelector.\'\\"\', $content);\\n}\\n\\n\\/\\/ Add method = post\\nif (preg_match(\'\\/form.*?method=\\"(.*?)\\"\\/\', $content)) {\\n\\t$content = preg_replace(\'\\/form(.*?)method=\\"(.*?)\\"\\/\', \'form\\\\\\\\1method=\\"post\\"\', $content);\\n}\\nelse {\\n\\t$content = str_replace(\'<form\', \'<form method=\\"post\\"\', $content);\\n}\\n\\n\\/\\/ Add action for form processing\\n$hash = md5(http_build_query($scriptProperties));\\n$action = \'<input type=\\"hidden\\" name=\\"af_action\\" value=\\"\'.$hash.\'\\" \\/>\';\\nif ((strpos($content, \'<\\/form>\') !== false)) {\\n\\tif (preg_match(\'\\/<input.*?name=\\"af_action\\".*?>\\/\', $content, $matches)) {\\n\\t\\t$content = str_replace($matches[0], \'\', $content);\\n\\t}\\n\\t$content = str_replace(\'<\\/form>\', \\"\\\\n\\\\t$action\\\\n<\\/form>\\", $content);\\n}\\n\\n\\/\\/ Save settings to user`s session\\n$_SESSION[\'AjaxForm\'][$hash] = $scriptProperties;\\n\\n\\/\\/ Call snippet for preparation of form\\n$action = !empty($_REQUEST[\'af_action\'])\\n\\t? $_REQUEST[\'af_action\']\\n\\t: $hash;\\n\\n$AjaxForm->process($action, $_REQUEST);\\n\\n\\/\\/ Return chunk\\nreturn $content;","locked":0,"properties":"a:5:{s:4:\\"form\\";a:7:{s:4:\\"name\\";s:4:\\"form\\";s:4:\\"desc\\";s:18:\\"ajaxform_prop_form\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:20:\\"tpl.AjaxForm.example\\";s:7:\\"lexicon\\";s:19:\\"ajaxform:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:7:\\"snippet\\";a:7:{s:4:\\"name\\";s:7:\\"snippet\\";s:4:\\"desc\\";s:21:\\"ajaxform_prop_snippet\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:6:\\"FormIt\\";s:7:\\"lexicon\\";s:19:\\"ajaxform:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:12:\\"frontend_css\\";a:7:{s:4:\\"name\\";s:12:\\"frontend_css\\";s:4:\\"desc\\";s:26:\\"ajaxform_prop_frontend_css\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:29:\\"[[+assetsUrl]]css\\/default.css\\";s:7:\\"lexicon\\";s:19:\\"ajaxform:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:11:\\"frontend_js\\";a:7:{s:4:\\"name\\";s:11:\\"frontend_js\\";s:4:\\"desc\\";s:25:\\"ajaxform_prop_frontend_js\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:27:\\"[[+assetsUrl]]js\\/default.js\\";s:7:\\"lexicon\\";s:19:\\"ajaxform:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:9:\\"actionUrl\\";a:7:{s:4:\\"name\\";s:9:\\"actionUrl\\";s:4:\\"desc\\";s:23:\\"ajaxform_prop_actionUrl\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:24:\\"[[+assetsUrl]]action.php\\";s:7:\\"lexicon\\";s:19:\\"ajaxform:properties\\";s:4:\\"area\\";s:0:\\"\\";}}","moduleguid":"","static":0,"static_file":"core\\/components\\/ajaxform\\/elements\\/snippets\\/snippet.ajaxform.php","content":"\\/** @var array $scriptProperties *\\/\\n\\/** @var AjaxForm $AjaxForm *\\/\\n$AjaxForm = $modx->getService(\'ajaxform\',\'AjaxForm\',$modx->getOption(\'ajaxform_core_path\',null,$modx->getOption(\'core_path\').\'components\\/ajaxform\\/\').\'model\\/ajaxform\\/\',$scriptProperties);\\nif (!($AjaxForm instanceof AjaxForm)) return \'\';\\n$AjaxForm->initialize($modx->context->key);\\n\\n$snippet = $modx->getOption(\'snippet\', $scriptProperties, \'FormIt\', true);\\n$tpl = $modx->getOption(\'form\', $scriptProperties, \'tpl.AjaxForm.example\', true);\\n$formSelector = $modx->getOption(\'formSelector\', $scriptProperties, \'ajax_form\', true);\\nif (!isset($placeholderPrefix)) {$placeholderPrefix = \'fi.\';}\\n\\n\\/** @var modChunk $chunk *\\/\\nif (!$chunk = $modx->getObject(\'modChunk\', array(\'name\' => $tpl))) {\\n\\treturn $modx->lexicon(\'af_err_chunk_nf\', array(\'name\' => $tpl));\\n}\\n\\n$content = $chunk->getContent();\\n\\n\\/\\/ Add selector to tag form\\nif (preg_match(\'\\/form.*?class=\\"(.*?)\\"\\/\', $content, $matches)) {\\n\\t$classes = explode(\' \', $matches[1]);\\n\\tif (!in_array($formSelector, $classes)) {\\n\\t\\t$classes[] = $formSelector;\\n\\t\\t$classes = str_replace(\'class=\\"\'.$matches[1].\'\\"\', \'class=\\"\'.implode(\' \', $classes).\'\\"\', $matches[0]);\\n\\t\\t$content = str_replace($matches[0], $classes, $content);\\n\\t}\\n}\\nelse {\\n\\t$content = str_replace(\'<form\', \'<form class=\\"\'.$formSelector.\'\\"\', $content);\\n}\\n\\n\\/\\/ Add method = post\\nif (preg_match(\'\\/form.*?method=\\"(.*?)\\"\\/\', $content)) {\\n\\t$content = preg_replace(\'\\/form(.*?)method=\\"(.*?)\\"\\/\', \'form\\\\\\\\1method=\\"post\\"\', $content);\\n}\\nelse {\\n\\t$content = str_replace(\'<form\', \'<form method=\\"post\\"\', $content);\\n}\\n\\n\\/\\/ Add action for form processing\\n$hash = md5(http_build_query($scriptProperties));\\n$action = \'<input type=\\"hidden\\" name=\\"af_action\\" value=\\"\'.$hash.\'\\" \\/>\';\\nif ((strpos($content, \'<\\/form>\') !== false)) {\\n\\tif (preg_match(\'\\/<input.*?name=\\"af_action\\".*?>\\/\', $content, $matches)) {\\n\\t\\t$content = str_replace($matches[0], \'\', $content);\\n\\t}\\n\\t$content = str_replace(\'<\\/form>\', \\"\\\\n\\\\t$action\\\\n<\\/form>\\", $content);\\n}\\n\\n\\/\\/ Save settings to user`s session\\n$_SESSION[\'AjaxForm\'][$hash] = $scriptProperties;\\n\\n\\/\\/ Call snippet for preparation of form\\n$action = !empty($_REQUEST[\'af_action\'])\\n\\t? $_REQUEST[\'af_action\']\\n\\t: $hash;\\n\\n$AjaxForm->process($action, $_REQUEST);\\n\\n\\/\\/ Return chunk\\nreturn $content;"}',
+        'guid' => '16822d8e40de114d762cb16470506607',
+        'native_key' => 0,
+        'signature' => 'dfb60c4cbac30691da8c11b957b382f8',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => false,
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'ajaxform',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"ajaxform-1.0.1-pl\\/modCategory\\/3840bd5bd65202ae39014ff8340a1d99\\/0\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"ajaxform"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"ajaxform-1.0.1-pl\\/modCategory\\/3840bd5bd65202ae39014ff8340a1d99\\/1\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"ajaxform"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '6387f08564de5f331eefdab05eb0a269',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '3840bd5bd65202ae39014ff8340a1d99',
+  'native_key' => NULL,
+  'object' => '{"id":null,"parent":0,"category":"AjaxForm"}',
+);

@@ -1,0 +1,23 @@
+Changelog for AjaxForm.
+
+1.0.1-pl
+==============
+- Possibly fix for Error 500 on some hosts.
+
+1.0.0-pl
+==============
+- Call end snippet on page load for preparation of form. Now you can use hook "math".
+
+1.0.0-rc
+==============
+- Force attribute "method=post" to form.
+- Added support for sending form without javascript.
+
+1.0.0-beta1
+==============
+- Improved adding class "ajax_form" to form.
+- Improved snippet parameters.
+
+1.0.0-beta0
+==============
+- Initial release.

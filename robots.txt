@@ -1,0 +1,18 @@
+User-agent: *
+Disallow: /assets/
+Disallow: /cgi-bin/
+Disallow: /connectors
+Disallow: /core
+Disallow: /css
+Disallow: /fonts
+Disallow: /js
+Disallow: /manager/
+Disallow: /webstat
+Disallow: /style.css
+Disallow: /config.core.php
+Disallow: /index.php 
+Disallow: *?
+Disallow: /smeta
+
+Host: stroyka495.ru
+Sitemap: http://stroyka495.ru/sitemap.xml

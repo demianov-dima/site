@@ -1,0 +1,18 @@
+<?php return array (
+  'class' => 'xPDOFileVehicle',
+  'object' => 
+  array (
+    'source' => 'modswiftmailer-0.3.1-pl/xPDOFileVehicle/d40896f8bad7b69b216e2532670102ec/',
+    'target' => 'return MODX_CORE_PATH . \'model/modx/mail/\';',
+    'name' => 'swiftmailer',
+  ),
+  'vehicle_class' => 'xPDOFileVehicle',
+  'namespace' => 'modswiftmailer',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'guid' => '53b492bfb6559205d3e1c1233575a331',
+  'package' => '',
+  'signature' => 'd40896f8bad7b69b216e2532670102ec',
+  'native_key' => '53b492bfb6559205d3e1c1233575a331',
+);

@@ -1,0 +1,62 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'unique_key' => 'text',
+  'related_objects' => 
+  array (
+    'Action' => 
+    array (
+      '9f87e081f6aeaaf79e8de5f8f520015c' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'namespace',
+          1 => 'controller',
+        ),
+        'class' => 'modAction',
+        'object' => '{"id":1,"namespace":"migx","controller":"index","haslayout":1,"lang_topics":"example:default","assets":"","help_url":""}',
+        'guid' => '447828685eb065e2b9d5b044b6a2e444',
+        'native_key' => 1,
+        'signature' => 'a72cdd557d6d339e3ec59693725b11da',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Action' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'namespace',
+        1 => 'controller',
+      ),
+    ),
+  ),
+  'namespace' => 'migx',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"migx-2.8.1-pl\\/modMenu\\/5e33ff753f1ac2aaf28a00233113ff1e.resolve.menues.resolver","type":"php","name":"resolve.menues"}',
+    ),
+    1 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"migx-2.8.1-pl\\/modMenu\\/5e33ff753f1ac2aaf28a00233113ff1e.resolve.tables.resolver","type":"php","name":"resolve.tables"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '9ca80eda9b23a72e3a13c98e6aa62dc5',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '5e33ff753f1ac2aaf28a00233113ff1e',
+  'native_key' => 'migx',
+  'object' => '{"text":"migx","parent":"components","action":1,"description":"","icon":"","menuindex":0,"params":"&configs=packagemanager||migxconfigs||setup","handler":"","permissions":""}',
+);

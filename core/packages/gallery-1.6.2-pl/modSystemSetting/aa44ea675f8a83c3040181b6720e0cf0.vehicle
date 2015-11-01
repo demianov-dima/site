@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'gallery',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '695802a31ce40e3d809d2025ee6c54d0',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'aa44ea675f8a83c3040181b6720e0cf0',
+  'native_key' => 'gallery.tiny.width',
+  'object' => '{"key":"gallery.tiny.width","value":"95%","xtype":"textfield","namespace":"gallery","area":"TinyMCE","editedon":null}',
+);

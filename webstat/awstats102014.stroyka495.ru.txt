@@ -1,0 +1,392 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201410 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.stroyka495.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1993                
+POS_TIME 2676                
+POS_VISITOR 8882                
+POS_DAY 10067               
+POS_DOMAIN 3392                
+POS_LOGIN 3626                
+POS_ROBOT 3781                
+POS_WORMS 4289                
+POS_EMAILSENDER 4420                
+POS_EMAILRECEIVER 4563                
+POS_SESSION 10361               
+POS_SIDER 10567               
+POS_FILETYPES 4698                
+POS_DOWNLOADS 5001                
+POS_OS 5072                
+POS_BROWSER 5201                
+POS_SCREENSIZE 5547                
+POS_UNKNOWNREFERER 5621                
+POS_UNKNOWNREFERERBROWSER 5757                
+POS_ORIGIN 5839                
+POS_SEREFERRALS 5977                
+POS_PAGEREFS 6132                
+POS_SEARCHWORDS 6391                
+POS_KEYWORDS 6559                
+POS_MISC 2340                
+POS_ERRORS 6634                
+POS_CLUSTER 3482                
+POS_SIDER_404 6746                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20141009180555 589 148612 11595854110468
+FirstTime 20141001030848
+LastTime 20141009125623
+LastUpdate 20141010000811 589 0 589 0 0
+TotalVisits 42                  
+TotalUnique 26                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 27                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 62258 0 0 0
+1 4 4 98370 0 1 0
+2 2 2 63583 5 7 78714
+3 4 4 125604 7 9 46260
+4 10 101 1734596 0 0 0
+5 2 2 38981 3 4 207944
+6 0 0 0 42 71 837966
+7 0 0 0 1 1 23412
+8 0 0 0 30 30 219327
+9 2 31 528411 2 3 55702
+10 49 163 4151036 1 5 32248
+11 837 2302 42509735 13 23 112719
+12 620 1548 36725004 58 85 1281901
+13 646 1413 32397055 9 13 148636
+14 257 899 22333772 8 13 139366
+15 394 828 21723799 13 16 130697
+16 8 73 1120289 0 1 517
+17 390 753 4357622 7 8 79965
+18 1 8 7866 9 11 85071
+19 0 0 0 3 5 81976
+20 1 16 264591 0 3 0
+21 1 1 31214 1 2 32248
+22 0 0 0 5 7 81291
+23 2 16 306521 2 3 48794
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 3232 8166 168580307
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+mj12bot 84 906385 20141009180549 15
+spider 69 1237533 20141007125800 0
+yandex 35 612428 20141009063910 1
+[\s_+:,\.\;\/\\-]bot 20 150393 20141008081543 1
+bot[\s_+:,\.\;\/\\-] 4 23998 20141003153528 1
+unknown 3 1551 20141008174418 3
+mail\.ru 2 8625 20141008024106 1
+no_user_agent 1 646 20141007125751 1
+surveybot 1 7934 20141009114339 0
+archive\.org_bot 1 646 20141001035345 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+eot 3 61839 0 0
+css 1114 34029348 0 0
+png 464 6741299 0 0
+htm 9 8595 0 0
+woff 54 2338314 0 0
+php 2853 34647123 0 0
+html 204 2643865 0 0
+js 2188 71296882 0 0
+jpg 614 15540662 0 0
+Unknown 109 769401 0 0
+svg 57 127640 0 0
+gif 497 375339 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 24 0 14859
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 9
+winxp 75
+winnt 3
+linuxubuntu 1
+winvista 6154
+linux 1
+win7 1928
+macosx 2
+winme 1
+Unknown 1
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 19
+msie6.0 1
+chrome6.0.427.0 1
+chrome37.0.2062.124 47
+firefox32.0 7099
+firefox3.0.7 1
+chrome36.0.1944.0 2
+chrome28.0.1500.95 30
+firefox18.0 1
+opera9.80 1
+msie8.0 32
+chrome10.0.648.0 1
+chrome36.0.1985.143 4
+mozilla 2
+netscape3.0 1
+firefox16.0 9
+msie10.0 16
+msie2.0 1
+chrome39.0.2145.4 915
+msie5.0 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Mozilla/4.0_(compatible;_Synapse) 20141004143210
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 95 99
+From1 1 1
+From2 4 4
+From3 6 6
+From4 3126 8056
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+yandex 4 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://ajkfg.gdzz.url.ph/story/reshebnik-happy-english-11-klass-kaufman.html 5 5
+http://save-novorossia.ru 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+stroyka495.ru 4
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+stroyka495.ru 4
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+302 7 4370
+404 52 764411
+301 11 5834
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 24
+/gallery/%D0%BA%D1%83%D1%85%D0%BD%D0%B8 1 -
+/user/ 1 -
+/%D0%B3%D0%B0%D0%BB%D0%B5%D1%80%D0%B5%D1%8F/%D0%BA%D0%BE%D0%BC%D0%BD%D0%B0%D1%82%D1%8B 1 http://stroyka495.ru/
+/admin.php 9 -
+/forum/ 2 http://sibtest.ru/
+/administrator/index.php 6 -
+/%D0%B3%D0%B0%D0%BB%D0%B5%D1%80%D0%B5%D1%8F/ 1 http://stroyka495.ru/
+/%D0%B3%D0%B0%D0%BB%D0%B5%D1%80%D0%B5%D1%8F/%D0%BA%D1%83%D1%85%D0%BD%D0%B8 1 http://stroyka495.ru/
+/blogs 1 http://stroyka495.ru/blogs
+/%D1%86%D0%B5%D0%BD%D1%8B 3 -
+/%D0%B3%D0%B0%D0%BB%D0%B5%D1%80%D0%B5%D1%8F/%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%BA%D0%B0-%D0%B4%D0%BE%D0%BC%D0%BE%D0%B2 1 http://stroyka495.ru/
+/administrator/ 3 -
+/%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B 1 http://stroyka495.ru/
+/%D0%B2%D1%81%D0%B5-%D0%BE%D1%82%D0%B7%D1%8B%D0%B2%D1%8B 3 http://stroyka495.ru/
+/bitrix/admin/ 1 -
+/forum/index.php 1 http://stroyka495.ru/forum/index.php
+/%D0%B3%D0%B0%D0%BB%D0%B5%D1%80%D0%B5%D1%8F/%D0%BF%D0%B5%D1%80%D0%B5%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%BA%D0%B8 1 http://stroyka495.ru/
+/%D0%B3%D0%B0%D0%BB%D0%B5%D1%80%D0%B5%D1%8F/%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE 1 http://stroyka495.ru/
+/css/fonts/slick.eot 2 http://stroyka495.ru/
+/wp-login.php 8 -
+/%D0%B3%D0%B0%D0%BB%D0%B5%D1%80%D0%B5%D1%8F/%D0%BD%D0%B5%D0%B6%D0%B8%D0%BB%D1%8B%D0%B5-%D0%BF%D0%BE%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D1%8F 1 http://stroyka495.ru/
+/%D0%B3%D0%B0%D0%BB%D0%B5%D1%80%D0%B5%D1%8F/%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5-%D0%B8-%D1%81%D0%B0%D0%BD%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D1%83%D0%B7%D0%BB%D1%8B 1 http://stroyka495.ru/
+/%D0%B3%D0%B0%D0%BB%D0%B5%D1%80%D0%B5%D1%8F/%D0%B4%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B5 1 http://stroyka495.ru/
+/%D0%B3%D0%B0%D0%BB%D0%B5%D1%80%D0%B5%D1%8F/%D0%BF%D1%80%D0%B8%D1%85%D0%BE%D0%B6%D0%B8%D0%B5 1 http://stroyka495.ru/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 27
+95.53.148.66 478 991 24550264 20141001134819
+92.101.179.13 450 1793 39893848 20141007203133
+95.132.22.52 431 554 4169753 20141007121201
+109.188.125.218 394 800 4922761 20141008174439
+92.101.167.70 392 931 24504796 20141005151441
+78.36.190.167 322 885 22449177 20141008130854
+95.53.147.8 309 1005 25941844 20141004150148
+95.132.28.55 274 361 3783823 20141005130528
+92.101.181.76 127 547 13169324 20141009125623
+188.225.33.150 9 9 283047 20141009030242
+66.249.81.73 0 1 163524 
+2.93.24.123 2 16 306521 20141007230832
+95.158.226.253 1 1 7784 20141003164531
+188.190.100.50 1 1 7792 20141005091930
+74.141.200.242 1 1 7780 20141001051237
+109.188.127.140 9 47 648438 20141005130232
+46.173.72.171 5 5 155618 20141004100647
+195.91.224.113 3 46 803138 20141007172905
+94.248.0.71 9 100 1703382 20141008045732
+91.105.69.9 1 1 31214 20141004143210
+217.26.166.157 1 1 31214 20141004043648
+217.69.133.169 1 1 7987 20141009015556
+109.188.126.89 4 47 550439 20141001132204
+37.229.138.43 2 2 58781 20141002013817
+46.39.237.37 2 2 59506 20141006144902
+194.187.31.46 2 2 62415 20141001212355
+95.26.68.104 2 16 306137 20141007115725
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 9
+20141001 486 1042 25202099 6
+20141002 3 3 89995 2
+20141003 2 2 38998 2
+20141004 317 1013 26191104 5
+20141005 677 1342 29139417 6
+20141006 3 3 91108 2
+20141007 1277 3184 49851619 11
+20141008 338 1028 24766681 4
+20141009 129 549 13209286 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 3
+5mn-15mn 3
+15mn-30mn 1
+30s-2mn 3
+0s-30s 26
+2mn-5mn 1
+30mn-1h 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 47
+/connectors/index.php 1750 6398719 0 7
+/connectors/system/phpthumb.php 482 20621341 0 0
+/manager/min/index.php 424 5249266 0 0
+/ 99 1285839 40 22
+/manager/ 92 1289354 1 0
+/connectors/lang.js.php 85 1754813 0 0
+/connectors/modx.config.js.php 85 482699 0 0
+/fonts/glyphicons-halflings-regular.woff 36 825720 0 2
+/assets/components/migx/connector.php 27 140285 0 0
+/uslugi/remont-komnat/otdelka-gostinoy 20 61448 0 0
+/gallery/%D0%BA%D1%83%D1%85%D0%BD%D0%B8 1 5417 0 0
+/uslugi/vidy-rabot/assembly-windowsill 1 7811 0 1
+/gallery/%D0%BF%D1%80%D0%B8%D1%85%D0%BE%D0%B6%D0%B8%D0%B5 2 10100 0 0
+/gallery/ 12 61411 0 0
+/contacts 7 44763 0 0
+/uslugi/remont-kvartir/remont-cottage 2 15207 0 0
+/uslugi/remont-komnat/otdelka-kuhni 4 30768 0 0
+/assets/components/tinymce/jscripts/tiny_mce/themes/advanced/source_editor.htm 9 8595 0 0
+/%D1%86%D0%B5%D0%BD%D1%8B 6 52227 1 2
+/%D0%B3%D0%B0%D0%BB%D0%B5%D1%80%D0%B5%D1%8F/%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%BA%D0%B0-%D0%B4%D0%BE%D0%BC%D0%BE%D0%B2 1 4885 0 0
+/%D0%B2%D1%81%D0%B5-%D0%BE%D1%82%D0%B7%D1%8B%D0%B2%D1%8B 1 6815 0 0
+/fonts/glyphicons-halflings-regular.eot 3 61839 0 3
+/%D0%B3%D0%B0%D0%BB%D0%B5%D1%80%D0%B5%D1%8F/%D0%BF%D1%80%D0%B8%D1%85%D0%BE%D0%B6%D0%B8%D0%B5 3 15242 0 1
+/uslugi/remont-komnat/children-room 1 7921 0 0
+/manager/templates/default/fonts/fontawesome-webfont.woff 18 1512594 0 0
+/gallery/%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE 1 4885 0 0
+/uslugi/remont-kvartir/kosmeticheskiy-remont 2 15846 0 0
+/uslugi/vidy-rabot/installation-of-heating 4 31963 0 0
+/price 4 64219 0 0
+/uslugi/remont-komnat/otdelka-koridora 4 30902 0 0
+/uslugi/vidy-rabot/santechnicheskie-reaboti 1 8182 0 0
+/lavatory-room 4 31738 0 0
+/uslugi/vidy-rabot/shtukaturnie-raboti 1 7729 0 0
+/uslugi/vidy-rabot/noise-isolation 1 7605 0 0
+/reviews 6 39790 0 0
+/gallery/%D0%BD%D0%B5%D0%B6%D0%B8%D0%BB%D1%8B%D0%B5-%D0%BF%D0%BE%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D1%8F 2 10540 0 1
+/gallery/kitchen 1 5552 0 0
+/uslugi/vidy-rabot/gypsum-cardboard 2 55471 0 2
+/%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B 5 31500 0 0
+/uslugi/remont-kvartir/evroremont 1 7423 0 0
+/uslugi/remont-nezhilyh-pomesheniy/remont-office 9 68600 0 0
+/uslugi/remont-kvartir/ 1 7261 0 1
+/gallery/%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5-%D0%B8-%D1%81%D0%B0%D0%BD%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D1%83%D0%B7%D0%BB%D1%8B 3 15222 0 0
+/uslugi/remont-komnat/otdelka-spalni 1 7623 0 0
+/uslugi/vidy-rabot/assembly-window 1 7531 0 0
+/uslugi/remont-nezhilyh-pomesheniy/remont-torgovih-pomeshenii 6 46861 0 0
+/uslugi/remont-kvartir/kapitalniy-remont 1 7615 0 0
+END_SIDER

@@ -1,0 +1,87 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'unique_key' => 'text',
+  'related_objects' => 
+  array (
+    'Action' => 
+    array (
+      'ee419d5be0b5f7bf65d4253d41201ff7' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'namespace',
+          1 => 'controller',
+        ),
+        'class' => 'modAction',
+        'object' => '{"id":1,"namespace":"gallery","controller":"index","haslayout":1,"lang_topics":"gallery:default","assets":"","help_url":"","parent":0}',
+        'guid' => '5c745ec56c1af4b7feb81528330e7c57',
+        'native_key' => 1,
+        'signature' => '0b5f434dd2a5f31aaa3a57b4217a22ef',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Action' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'namespace',
+        1 => 'controller',
+      ),
+    ),
+  ),
+  'namespace' => 'gallery',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"gallery-1.6.2-pl\\/modMenu\\/a47bfde637e2c5171b6b00769bc2ae80.resolve.tables.resolver","type":"php","name":"resolve.tables"}',
+    ),
+    1 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"gallery-1.6.2-pl\\/modMenu\\/a47bfde637e2c5171b6b00769bc2ae80.resolve.phpthumb.resolver","type":"php","name":"resolve.phpthumb"}',
+    ),
+    2 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"gallery-1.6.2-pl\\/modMenu\\/a47bfde637e2c5171b6b00769bc2ae80.resolve.paths.resolver","type":"php","name":"resolve.paths"}',
+    ),
+    3 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"gallery-1.6.2-pl\\/modMenu\\/a47bfde637e2c5171b6b00769bc2ae80.resolve.dbchanges.resolver","type":"php","name":"resolve.dbchanges"}',
+    ),
+    4 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"gallery-1.6.2-pl\\/modMenu\\/a47bfde637e2c5171b6b00769bc2ae80.resolve.spaces.resolver","type":"php","name":"resolve.spaces"}',
+    ),
+    5 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"gallery-1.6.2-pl\\/modMenu\\/a47bfde637e2c5171b6b00769bc2ae80.resolve.albumfiles.resolver","type":"php","name":"resolve.albumfiles"}',
+    ),
+    6 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"gallery-1.6.2-pl\\/modMenu\\/a47bfde637e2c5171b6b00769bc2ae80.resolve.extpack.resolver","type":"php","name":"resolve.extpack"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '959af0f4724c332ae6ff1511038dce2f',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => 'a47bfde637e2c5171b6b00769bc2ae80',
+  'native_key' => 'gallery',
+  'object' => '{"text":"gallery","parent":"components","action":1,"description":"gallery.menu_desc","icon":"images\\/icons\\/plugin.gif","menuindex":0,"params":"","handler":"","permissions":""}',
+);
